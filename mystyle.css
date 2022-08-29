@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap');
+
+
+/*------------- Whole Document---------------- */
+
+body {
+    font-family: 'Muli', arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+h1 {
+    font-weight: 800;
+    color: #333333;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: 'Lora', arial, sans-serif;
+    font-weight: 700;
+    color: #8A2074;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Lora', arial, sans-serif;
+    font-weight: 700;
+    color: #8A2074;
+    font-size: 18px;
+}
+
+
+
+/*----------------- links ---------------------*/
+
+a { 
+  color: #4e89bf;
+}
+
+a:hover {
+    color: #396892; /* darker color when hovering */
+}
+
+/*----------------ADDING WHITE SPACE-------------*/
+
+.title {
+  margin-top: 2.75em !important;
+  margin-bottom: 0.75em;
+}
+
+.section h1 {
+  margin-top: 2.5em !important;
+  margin-bottom: 0.75em;
+}
+
+.section h2, 
+.section h3, 
+.section h4, 
+.section h5 { 
+  padding-top: 1.5em !important;
+  margin-bottom: 0.75em;
+}
+
+/* Remove excessive white space at the end of page */
+
+.tocify-extend-page {
+  height: 100px !important; 
+}
+
+/*------------Table of Contents (TOC)----------- */
+
+
+.tocify {
+  border: none;   /*Removes border */
+  border-radius: 0px; /* Gets rid of rounded corners on TOC */
+  font-size: 16px;
+}
+
+.tocify ul, .tocify li { /* Increases spacing between TOC headers*/
+    line-height: 25px !important;
+}
+
+.tocify ul {
+  border-right: solid 1px #eee; /* Thin right border on TOC list */
+}
+
+/* Active TOC links*/
+
+.list-group-item.active, 
+.list-group-item.active:hover{
+  color: #787878;
+  background-color: #ffffff;
+  border-color: #ccc;
+}
+
+/* Hovered TOC links*/
+
+.list-group-item:hover { 
+  color: #787878;
+  background-color: #ffffff;
+  border: none;
+}
+
+/*---------------bolded text ---------------------*/
+b, strong {
+   color: #208A35;
+   }
+
+em {
+    font-style: italic !important;
+}
